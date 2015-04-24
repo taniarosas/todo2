@@ -3,8 +3,6 @@
 <head>
 	<title> Tania todo</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 <body>
 	<div class="wrap">
@@ -12,7 +10,7 @@
 			<ul>
 				<?php
 					require("includes/connect.php");
-					$mysqli = new mysqli('localhost', 'root', 'root', 'todo');
+					$mysqli = new mysqli('localhost', 'root', 'root', 'todo2');
 					$query = "SELECT * FROM tasks ORDER BY date ASC, time ASC";
 					if ($result = $mysqli->query($query)) {
 						$numrows = $result->num_rows;
@@ -37,6 +35,7 @@
 	</div>
 </body>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
 	add_task();
 	function add_task(){
