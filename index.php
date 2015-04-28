@@ -10,7 +10,7 @@ require_once(__DIR__ . "/view/header.php");
 
     //using navigation file
     //it stores the info in navigation
-    require_once(__DIR__ . "/view/navigation.php");
+    // require_once(__DIR__ . "/view/navigation.php");
 
 //this is where youll have html code and get info from the model
 //the DIR concatinates

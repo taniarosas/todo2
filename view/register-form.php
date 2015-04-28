@@ -2,6 +2,7 @@
 //require the config file to get to the $path variable
 require_once(__DIR__ . "/../model/config.php");
 ?>
+<div class="container">
 <h1>Register</h1>
 <form method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
     <div>
@@ -23,3 +24,4 @@ require_once(__DIR__ . "/../model/config.php");
         <button type="submit">Submit</button>
     </div>
 </form>
+</div>
