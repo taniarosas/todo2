@@ -1,16 +1,21 @@
 @import "reset.css";
 @import "normalize.css";
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400, 700);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 body{
-	font: normal 14px 'Open Sans', Arial, sans-serif;
+	font-family: 'Lobster', cursive;
 	color: #999;
-	background: #f1f1f1;
+	background-image: url("http://i.imgur.com/lqXiNa0.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .wrap{
 	width: 400px;
 	margin: 0 auto;
+	text-align: center;
 }
 .task-list{
 	width: 88%;
@@ -19,4 +24,7 @@ body{
 	box-shadow: 2px 2px 0px #ddd;
 	margin-top: 40px;
 	padding: 22px 6%;
+	opacity: .8;
+	margin-top: 100px;
+
 }

@@ -1,16 +1,19 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 body{
-	font: normal 14px 'Open Sans', Arial, sans-serif;
+	font-family: 'Lobster', cursive;
 	color: #999;
-	background-image: url("");
+	background-image: url("http://static.tumblr.com/262ad7dce3686708aa3de2fa50cee7c5/9frqokj/4q1nf3qxw/tumblr_static_7125ibtj6y4okgs4skcscgkc0.jpg");
 }
 .container{
-	width: 900px;
-	height: 600px;
-	margin-top: 40px;
+	width: 600px;
+	height: 500px;
+	margin-top: 60px;
 	background: #f1f1f1;
 	text-align: center;
 	padding-top: 30px;
+	margin-left: 350px;
+	font-size: 30px;
+	opacity: .8;
 }
 

@@ -26,5 +26,6 @@ require_once(__DIR__ . "/../model/config.php");
         <!--it labels the submit button-->
         <button type="submit">Submit</button>
     </div>
+    go to <a href="register.php"> Register</a> or go <a href="index.php">Home</a>
 </form> 
 </div>

@@ -1,17 +1,20 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 body{
-	font: normal 14px 'Open Sans', Arial, sans-serif;
+	font-family: 'Lobster', cursive;
 	color: #999;
-	background-image: url("");
+	background-image: url("http://home.uia.no/thanap13/Team%20Awesome%20beta/images/CUBEN-12-Space-7-iPad3-SimonCPage.jpg");	
 }
 
 .container{
-	width: 900px;
-	height: 600px;
-	margin-top: 40px;
+	width: 600px;
+	height: 500px;
+	margin-top: 60px;
 	background: #f1f1f1;
 	text-align: center;
 	padding-top: 30px;
+	margin-left: 350px;
+	font-size: 30px;
+	opacity: .8;
 }
 
