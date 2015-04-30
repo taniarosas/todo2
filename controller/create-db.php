@@ -11,10 +11,10 @@ $query = $_SESSION["connection"]->query("CREATE TABLE users ("
         . "PRIMARY KEY (id))");
 if($query) {
 		//checks if the table was created successfully
-		echo "<p>Successfully created table: users</p>";
+		//echo "<p>Successfully created table: users</p>";
 	}
 	else{
 		//added a session variable, which preserves info
-		echo "<p>" . $_SESSION["connection"]->error . "</p>";
+		//echo "<p>" . $_SESSION["connection"]->error . "</p>";
 	}
 	

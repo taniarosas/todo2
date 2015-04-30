@@ -15,7 +15,6 @@ body{
 .wrap{
 	width: 400px;
 	margin: 0 auto;
-	text-align: center;
 }
 .task-list{
 	width: 88%;
@@ -26,5 +25,8 @@ body{
 	padding: 22px 6%;
 	opacity: .8;
 	margin-top: 100px;
-
+	margin-bottom: 40px;
+}
+.delete-button{
+	padding-left: 300px;
 }
