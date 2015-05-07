@@ -30,3 +30,40 @@ body{
 .delete-button{
 	padding-left: 300px;
 }
+
+/*iPhone 6 Portrait*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+	body{
+	font-family: 'Lobster', cursive;
+	color: #999;
+	background-image: url("http://i.imgur.com/lqXiNa0.jpg") no-repeat center center fixed;
+	background-position: center;
+}
+.wrap{
+	width: 600px;
+	height: 900px;
+}
+.task-list{
+	width: 88%;
+	min-height: 800px;
+	background: #fff;
+	box-shadow: 2px 2px 0px #ddd;
+	margin-top: 30px;
+	padding: 15px 6%;
+	opacity: .8;
+	margin-top: 350px;
+	margin-bottom: 65px;
+	font-size: 70px;
+}
+.delete-button{
+	height: 30px;
+	width: 30px;
+	padding-left: 300px;
+	background-position: right;
+}
+input{
+	height: 120px;
+	width: 300px;
+	font-size: 45px;
+}
+}

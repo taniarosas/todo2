@@ -18,3 +18,24 @@ body{
 	opacity: .8;
 }
 
+/*iPhone 6 Portrait*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+	body{
+	font-family: 'Lobster', cursive;
+	color: #999;
+	background-image: url("http://home.uia.no/thanap13/Team%20Awesome%20beta/images/CUBEN-12-Space-7-iPad3-SimonCPage.jpg") no-repeat center center fixed;	
+	background-position: center;
+	}
+	.container{
+		width: 300px;
+		height: 400px;
+		background: #f1f1f1;
+		text-align: center;
+		font-size: 25px;
+		opacity: .8;
+		margin-left: 30px;
+		margin-top: 120px;
+		
+	}
+
+}

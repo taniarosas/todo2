@@ -17,3 +17,28 @@ body{
 	opacity: .8;
 }
 
+/*iPhone 6 Portrait*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+	body{
+	font-family: 'Lobster', cursive;
+	color: #999;
+	background-image: url("http://static.tumblr.com/262ad7dce3686708aa3de2fa50cee7c5/9frqokj/4q1nf3qxw/tumblr_static_7125ibtj6y4okgs4skcscgkc0.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
+	.container{
+		width:700px;
+		height: 900px;
+		margin-top: 400px;
+		background: #f1f1f1;
+		text-align: center;
+		padding-top: 30px;
+		margin-left: 150px;
+		font-size: 70px;
+		opacity: .8;
+		}
+
+}
