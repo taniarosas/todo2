@@ -27,7 +27,12 @@ $query = $_SESSION["connection"]->query("INSERT INTO users SET "
         . "password = '$hashedPassword',"
         . "salt = '$salt'");
 if ($query) {
-    echo "Successfully created user: $username";
+    //echo "Successfully created user: $username";
 } else {
     echo "<p>" . $_SESSION["connection"]->error . "</p>";
 }
+?>
+<div>
+Go back<a href="../index.php"> Home </a> or go to<a href="../login.php"> Login </a>
+</div>
+

@@ -66,4 +66,9 @@ input{
 	width: 300px;
 	font-size: 45px;
 }
+.logout{
+	height: 80px;
+	width: 120px;
+	font-size: 35px;
+}
 }

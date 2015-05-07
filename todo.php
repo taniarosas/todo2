@@ -32,6 +32,8 @@
 		<form class="add-new-task" autocomplete="off">
 			<input type="text" name="new-task" placeholder="Add new item..."/>
 		</form>
+        <button class="logout" type="Logout"><a href="index.php"> Logout </a> </button>
+    </div>
 	</div>
 </body>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
